@@ -3,7 +3,7 @@ Example of communication between kernel module and user application
 
 
 **Workflow:**
-1. Kernel module invokes user application by calling call_userhelper
+1. Kernel module invokes user application by calling call_usermodehelper
 2. User app sends some message to kernel
 3. Kernel receives message and sends response
 4. User app receives kernel-response and sends something back
@@ -13,7 +13,7 @@ Example of communication between kernel module and user application
 
 1. ``` make ```
 
-All build artifacts (kernel module and user app) will be placed into the build directory
+All build artifacts (kernel module and user app) will be placed into the 'build' directory
 
 Now insert the module
 
